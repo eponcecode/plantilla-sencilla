@@ -21,22 +21,22 @@ function App() {
             <br />
             <br />
             <Switch>
-                <Route exact path="plantilla-sencilla">
+                <Route exact path="/plantilla-sencilla">
                     <Inicio/>
                 </Route>
-                <Route exact path="inicio">
+                <Route exact path="/inicio">
                     <Inicio />
                 </Route>
-                <Route exact path="quienes-somos">
+                <Route exact path="/quienes-somos">
                     <QuieneSomos />
                 </Route>
-                <Router exact path="historia">
+                <Router exact path="/historia">
                     <Historia />
                 </Router>
-                <Router exact path="servicios">
+                <Router exact path="/servicios">
                     <Servicios />
                 </Router>
-                <Router exact path="galeria">
+                <Router exact path="/galeria">
                     <Galeria />
                 </Router>
                 <Router exact path="/contacto">
