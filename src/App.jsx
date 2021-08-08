@@ -14,31 +14,32 @@ import Footer from "./Components/Footer";
 import Galeria from "./Components/Galeria";
 function App() {
     return (
+        <>
         <Router>
             <NavbarHeader />
             <br />
             <br />
             <br />
             <Switch>
-                <Route path="/" exact>
+                <Route exact path="/">
                     <Inicio/>
                 </Route>
-                <Route path="/inicio">
+                <Route exact path="/inicio">
                     <Inicio />
                 </Route>
-                <Route path="/quienes-somos">
+                <Route exact path="/quienes-somos">
                     <QuieneSomos />
                 </Route>
-                <Router path="/historia">
+                <Router exact path="/historia">
                     <Historia />
                 </Router>
-                <Router path="/servicios">
+                <Router exact path="/servicios">
                     <Servicios />
                 </Router>
-                <Router path="/galeria">
+                <Router exact path="/galeria">
                     <Galeria />
                 </Router>
-                <Router path="/contacto">
+                <Router exact path="/contacto">
                     <Contacto />
                 </Router>
             </Switch>
@@ -46,6 +47,7 @@ function App() {
             <br />
             <Footer />
         </Router>
+        </>
     );
 
 }
