@@ -21,7 +21,7 @@ function App() {
             <br />
             <br />
             <Switch>
-                <Route exact path="/plantilla-sencilla">
+                <Route exact path="/plantilla-sencilla/">
                     <Inicio/>
                 </Route>
                 <Route exact path="/inicio">
