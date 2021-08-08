@@ -11,11 +11,11 @@ function NavbarHeader() {
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
-      <Link to="quienes-somos">¿Quiénes somos?</Link>
-        <Link to="historia">Historia</Link>
-        <Link to="servicios">Servicios</Link>
-        <Link to="galeria">Galeria</Link>
-        <Link to="contacto">Contacto</Link>
+      <Link to="/quienes-somos">¿Quiénes somos?</Link>
+        <Link to="/historia"><Nav.Link>Historia</Nav.Link></Link>
+        <Link to="/servicios"><Nav.Link>Servicios</Nav.Link></Link>
+        <Link to="/galeria"><Nav.Link>Galeria</Nav.Link></Link>
+        <Link to="/contacto"><Nav.Link>Contacto</Nav.Link></Link>
       </Nav>
     </Navbar.Collapse>
   </Container>
