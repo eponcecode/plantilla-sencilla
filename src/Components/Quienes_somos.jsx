@@ -1,6 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image'
-const QuieneSomos = () => {
+const QuienesSomos = () => {
     return (
         <Container className="d-block w-auto" align="center">
             <Image src="img/teamwork.png" rounded />
@@ -14,4 +14,4 @@ const QuieneSomos = () => {
     );
 }
 
-export default QuieneSomos;
+export default QuienesSomos;

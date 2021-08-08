@@ -6,7 +6,7 @@ import {
     Route,
 } from "react-router-dom";
 import Inicio from "./Components/Inicio";
-import QuieneSomos from "./Components/Quienes_somos";
+import QuienesSomos from "./Components/Quienes_somos";
 import Historia from "./Components/Historia";
 import Servicios from "./Components/Servicios";
 import Contacto from "./Components/Contacto";
@@ -28,7 +28,7 @@ function App() {
                     <Inicio />
                 </Route>
                 <Route exact path="/quienes-somos">
-                    <QuieneSomos />
+                    <QuienesSomos />
                 </Route>
                 <Router exact path="/historia">
                     <Historia />
