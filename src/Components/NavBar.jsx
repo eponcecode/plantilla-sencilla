@@ -7,7 +7,7 @@ function NavbarHeader() {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
     <Container>
-    <Navbar.Brand><Link to="/">Tu sitio</Link></Navbar.Brand>
+    <Link to="/"><Navbar.Brand>Tu sitio</Navbar.Brand></Link>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
