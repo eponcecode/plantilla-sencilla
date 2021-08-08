@@ -24,22 +24,22 @@ function App() {
                 <Route exact path="/plantilla-sencilla">
                     <Inicio/>
                 </Route>
-                <Route exact path="/plantilla-sencilla/inicio">
+                <Route exact path="/inicio">
                     <Inicio />
                 </Route>
-                <Route exact path="/plantilla-sencilla/quienes-somos">
+                <Route exact path="/quienes-somos">
                     <QuieneSomos />
                 </Route>
-                <Router exact path="/plantilla-sencilla/historia">
+                <Router exact path="/historia">
                     <Historia />
                 </Router>
-                <Router exact path="/plantilla-sencilla/servicios">
+                <Router exact path="/servicios">
                     <Servicios />
                 </Router>
-                <Router exact path="/plantilla-sencilla/galeria">
+                <Router exact path="/galeria">
                     <Galeria />
                 </Router>
-                <Router exact path="/plantilla-sencilla/contacto">
+                <Router exact path="/contacto">
                     <Contacto />
                 </Router>
             </Switch>

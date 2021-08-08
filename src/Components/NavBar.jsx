@@ -7,15 +7,15 @@ function NavbarHeader() {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
     <Container>
-    <Link to="/plantilla-sencilla/inicio"><Navbar.Brand>Tu sitio</Navbar.Brand></Link>
+    <Link to="/plantilla-sencilla"><Navbar.Brand>Tu sitio</Navbar.Brand></Link>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
-      <Link to="plantilla-sencilla/quienes-somos">¿Quiénes somos?</Link>
-        <Link to="plantilla-sencilla/historia">Historia</Link>
-        <Link to="plantilla-sencilla/servicios">Servicios</Link>
-        <Link to="plantilla-sencilla/galeria">Galeria</Link>
-        <Link to="plantilla-sencilla/contacto">Contacto</Link>
+      <Link to="quienes-somos">¿Quiénes somos?</Link>
+        <Link to="historia">Historia</Link>
+        <Link to="servicios">Servicios</Link>
+        <Link to="galeria">Galeria</Link>
+        <Link to="contacto">Contacto</Link>
       </Nav>
     </Navbar.Collapse>
   </Container>
