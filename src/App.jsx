@@ -27,9 +27,6 @@ function App() {
                 <Route exact path="/inicio">
                     <Inicio />
                 </Route>
-                <Route exact path="/quienes-somos">
-                    <QuieneSomos />
-                </Route>
                 <Router exact path="/historia">
                     <Historia />
                 </Router>
