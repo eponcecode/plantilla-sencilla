@@ -22,9 +22,7 @@ function App() {
             <br />
             <Switch>
                 <Route exact path="/plantilla-sencilla/" component={Inicio}/>
-                <Route exact path="/inicio">
-                    <Inicio />
-                </Route>
+                <Route exact path="/inicio" component={Inicio}/>
                 <Route exact path="/quienes-somos" component={QuienesSomos}/>
                 <Router exact path="/historia" component={Historia}/>
                 <Router exact path="/servicios" component={Servicios}/>
