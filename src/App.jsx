@@ -25,21 +25,11 @@ function App() {
                 <Route exact path="/inicio">
                     <Inicio />
                 </Route>
-                <Route exact path="/quienes-somos">
-                    <QuienesSomos />
-                </Route>
-                <Router exact path="/historia">
-                    <Historia />
-                </Router>
-                <Router exact path="/servicios">
-                    <Servicios />
-                </Router>
-                <Router exact path="/galeria">
-                    <Galeria />
-                </Router>
-                <Router exact path="/contacto">
-                    <Contacto />
-                </Router>
+                <Route exact path="/quienes-somos" component={QuienesSomos}/>
+                <Router exact path="/historia" component={Historia}/>
+                <Router exact path="/servicios" component={Servicios}/>
+                <Router exact path="/galeria" component={Galeria}/>
+                <Router exact path="/contacto" component={Contacto}/>
             </Switch>
             <br />
             <br />
