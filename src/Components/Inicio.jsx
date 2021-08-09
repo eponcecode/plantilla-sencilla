@@ -32,7 +32,7 @@ function Inicio() {
             </Container>
             <br/>
             <Container align="center">
-            <Image src='plantilla-sencilla/img/under_construction.jpg' width="1000"/>
+            <Image src='img/under_construction.jpg' width="1000"/>
             </Container>
         </div>
     )
