@@ -12,7 +12,7 @@ const Servicios = () => {
     return (
         <Container>
             <h1>Our services...</h1>
-            <p>Have your custom colors</p>
+            <h6>>>Have your custom colors</h6>
             <br />
             <Tab.Container id="list-group-tabs-example" defaultActiveKey="#first">
                 <Row>

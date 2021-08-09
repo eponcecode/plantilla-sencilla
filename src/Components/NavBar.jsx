@@ -8,15 +8,15 @@ function NavbarHeader() {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
     <Container >
-     <Nav.Link> activeClassName='navbar-brand active' to="/plantilla-sencilla/inicio" >Tu sitio </Nav.Link>
+     <Navbar.Brand componentclass={Link} href="/plantilla-sencilla/inicio" to="/plantilla-sencilla/inicio">Tu sitio </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
-        <Nav.Link componentClass={Link} href="/plantilla-sencilla/quienes-somos" to="/plantilla-sencilla/quienes-somos">¿Quiénes somos?</Nav.Link>
-         <Nav.Link componentClass={Link} href="/plantilla-sencilla/historia" to="/plantilla-sencilla/historia">Historia </Nav.Link>
-         <Nav.Link componentClass={Link} href="/plantilla-sencilla/servicios" to="/plantilla-sencilla/servicios">Servicios </Nav.Link>
-         <Nav.Link componentClass={Link} href="/plantilla-sencilla/galeria" to="/plantilla-sencilla/galeria">Galeria </Nav.Link>
-         <Nav.Link componentClass={Link} href="/plantilla-sencilla/contacto" to="/plantilla-sencilla/contacto">Contacto </Nav.Link>
+        <Nav.Link componentclass={Link} href="/plantilla-sencilla/quienes-somos" to="/plantilla-sencilla/quienes-somos">¿Quiénes somos?</Nav.Link>
+         <Nav.Link componentclass={Link} href="/plantilla-sencilla/historia" to="/plantilla-sencilla/historia">Historia </Nav.Link>
+         <Nav.Link componentclass={Link} href="/plantilla-sencilla/servicios" to="/plantilla-sencilla/servicios">Servicios </Nav.Link>
+         <Nav.Link componentclass={Link} href="/plantilla-sencilla/galeria" to="/plantilla-sencilla/galeria">Galeria </Nav.Link>
+         <Nav.Link componentclass={Link} href="/plantilla-sencilla/contacto" to="/plantilla-sencilla/contacto">Contacto </Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Container>
