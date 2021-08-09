@@ -93,7 +93,7 @@ const Servicios = () => {
                             </Tab.Pane>
                             <Tab.Pane eventKey="#seventh">
                                 <Container align="center">
-                                    <h1>Video</h1>
+                                    <h1>Tables</h1>
                                     <br />
                                 </Container>
                                 <Container>
