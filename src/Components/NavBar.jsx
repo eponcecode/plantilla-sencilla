@@ -2,7 +2,7 @@ import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import {Link} from 'react-router-dom';
+import {Link,BrowserRouter} from 'react-router-dom';
 
 function NavbarHeader() {
   return (
@@ -12,11 +12,20 @@ function NavbarHeader() {
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
+      <BrowserRouter>
         <Nav.Link componentclass={Link} to="/plantilla-sencilla/quienes-somos" href="/plantilla-sencilla/quienes-somos">¿Quiénes somos?</Nav.Link>
+         </BrowserRouter>
+         <BrowserRouter>
          <Nav.Link componentclass={Link} to="/plantilla-sencilla/historia" href="/plantilla-sencilla/historia">Historia </Nav.Link>
+         <BrowserRouter>
          <Nav.Link componentclass={Link} to="/plantilla-sencilla/servicios" href="/plantilla-sencilla/servicios">Servicios </Nav.Link>
+         </BrowserRouter>
+         <BrowserRouter>
          <Nav.Link componentclass={Link} to="/plantilla-sencilla/galeria" href="/plantilla-sencilla/galeria">Galeria </Nav.Link>
+         </BrowserRouter>
+         <BrowserRouter></BrowserRouter>
          <Nav.Link componentclass={Link} to="/plantilla-sencilla/contacto" href="/plantilla-sencilla/contacto">Contacto </Nav.Link>
+         </BrowserRouter>
       </Nav>
     </Navbar.Collapse>
   </Container>
