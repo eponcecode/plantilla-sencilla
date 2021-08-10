@@ -29,15 +29,16 @@ function Footer() {
             <br />
             <Container>
                 <Row>
-                    <Col><h5>TITLE</h5>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius tempore voluptatibus
+                    <Col xs={12} sm={12} md={6} lg={6} xxl={6}>
+                        <h5 align='center'>TITLE</h5>
+                        <p align='justify'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius tempore voluptatibus
                             officiis quas ea ducimus recusandae consequatur dolores necessitatibus, neque nisi
                             dolore deleniti, blanditiis nesciunt. Minima, vel minus. Quidem facilis esse expedita
                             impedit libero ut, suscipit dolorem nostrum earum quo voluptas delectus.
                             Repellendus libero consectetur, molestiae eum hic repudiandae accusamus.</p></Col>
-                    <Col>
-                        <h5>TITLE</h5>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius tempore voluptatibus
+                    <Col xs={12} sm={12} md={6} lg={6} xxl={6}>
+                        <h5 align='center'>TITLE</h5>
+                        <p align='justify'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius tempore voluptatibus
                             officiis quas ea ducimus recusandae consequatur dolores necessitatibus, neque nisi
                             dolore deleniti, blanditiis nesciunt. Minima, vel minus. Quidem facilis esse expedita
                             impedit libero ut, suscipit dolorem nostrum earum quo voluptas delectus.

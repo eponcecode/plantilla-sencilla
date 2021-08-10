@@ -16,68 +16,61 @@ const Servicios = () => {
             <br />
             <Tab.Container id="list-group-tabs-example" defaultActiveKey="#first">
                 <Row>
-                    <Col sm={4}>
+                    <Col xs={12} sm={12} md={6} lg={6} xxl={6}>
                         <ListGroup>
-                            <ListGroup.Item action href="#first">Image</ListGroup.Item>
-                            <ListGroup.Item action href="#second" variant="primary">Text</ListGroup.Item>
-                            <ListGroup.Item action href="#third" variant="secondary">Image and text</ListGroup.Item>
-                            <ListGroup.Item action href="#fourth" variant="success">Text and image</ListGroup.Item>
-                            <ListGroup.Item action href="#fifth" variant="danger">Text with lists</ListGroup.Item>
-                            <ListGroup.Item action href="#sixth" variant="warning">Video</ListGroup.Item>
-                            <ListGroup.Item action href="#seventh" variant="info">Tables</ListGroup.Item>
+                            <ListGroup.Item action href="#image">Image</ListGroup.Item>
+                            <ListGroup.Item action href="#text" variant="primary">Text</ListGroup.Item>
+                            <ListGroup.Item action href="#imageandtext" variant="secondary">Image and text</ListGroup.Item>
+                            <ListGroup.Item action href="#textandimage" variant="success">Text and image</ListGroup.Item>
+                            <ListGroup.Item action href="#textwithlists" variant="danger">Text with lists</ListGroup.Item>
+                            <ListGroup.Item action href="#video" variant="warning">Video</ListGroup.Item>
+                            <ListGroup.Item action href="#tables" variant="info">Tables</ListGroup.Item>
                             <ListGroup.Item variant="light">and</ListGroup.Item>
                             <ListGroup.Item variant="dark">more...</ListGroup.Item>
                         </ListGroup>
+                        <br />
                     </Col>
-                    <Col>
+                    <Col xs={12} sm={12} md={6} lg={6} xxl={6}>
                         <Tab.Content>
-                            <Tab.Pane eventKey="#first">
-                            <Container align="center">
-                                <h1>Image</h1>
-                                <br />
-                                <Image src="img/services.png" width="90%" />
-                                </Container>
-                            </Tab.Pane>
-                            <Tab.Pane eventKey="#second">
+                            <Tab.Pane eventKey="#image">
                                 <Container align="center">
-                                    <h1>Text</h1>
-                                </Container>
-                                <Container align="justify">
+                                    <h1>Image</h1>
                                     <br />
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt explicabo temporibus facere nemo itaque voluptates commodi iure esse accusantium. Autem hic suscipit, laudantium labore debitis iure sequi illum! Esse architecto excepturi voluptatum assumenda, error odio, itaque non repellendus rerum pariatur temporibus. Cumque, incidunt assumenda blanditiis perferendis minus a adipisci expedita.</p>
+                                    <Image src="img/services.png" fluid />
                                 </Container>
                             </Tab.Pane>
-                            <Tab.Pane eventKey="#third">
+                            <Tab.Pane eventKey="#text">
+                                <Container>
+                                    <h1 align="center">Text</h1>
+                                    <br />
+                                    <p align="justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt explicabo temporibus facere nemo itaque voluptates commodi iure esse accusantium. Autem hic suscipit, laudantium labore debitis iure sequi illum! Esse architecto excepturi voluptatum assumenda, error odio, itaque non repellendus rerum pariatur temporibus. Cumque, incidunt assumenda blanditiis perferendis minus a adipisci expedita.</p>
+                                </Container>
+                            </Tab.Pane>
+                            <Tab.Pane eventKey="#imageandtext">
                                 <Container align="center">
                                     <h1>Image and text</h1>
                                     <br />
-                                    <Image src="img/service_04.png" width="90%" thumbnail />
+                                    <Image src="img/service_04.png" thumbnail fluid/>
                                     <br /> <br />
                                 </Container>
-                                <Container align="justify">
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi quibusdam mollitia praesentium illum dolores culpa illo quisquam possimus pariatur. Dolorem perspiciatis nihil fugiat sint earum numquam, quibusdam quidem harum placeat assumenda reprehenderit labore odit asperiores consectetur ab amet sed repudiandae enim ratione porro error. Modi sit, facere eius adipisci, maiores non voluptatem similique aspernatur laudantium placeat odit nulla, repellat assumenda saepe reiciendis magni aliquid illo animi. Architecto neque labore provident aspernatur ratione saepe exercitationem expedita ducimus, velit perferendis natus quidem sit omnis voluptatem ea adipisci? Quaerat temporibus amet mollitia provident, est deserunt dolores ratione adipisci, quod alias, dolorum ducimus inventore! Iusto autem molestias odit dolore similique ab totam quaerat vero fugit consequuntur, ullam officiis asperiores cum possimus? Commodi, asperiores. Voluptatem hic quod aspernatur, porro tempora rerum dolores, dolorum magnam ad iste recusandae? Tempora expedita quidem quod quasi dolorum saepe soluta quia, earum ea architecto voluptatibus fugit voluptates est nostrum? Tempore?</p>
+                                <Container>
+                                    <p align="justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi quibusdam mollitia praesentium illum dolores culpa illo quisquam possimus pariatur. Dolorem perspiciatis nihil fugiat sint earum numquam, quibusdam quidem harum placeat assumenda reprehenderit labore odit asperiores consectetur ab amet sed repudiandae enim ratione porro error. Modi sit, facere eius adipisci, maiores non voluptatem similique aspernatur laudantium placeat odit nulla, repellat assumenda saepe reiciendis magni aliquid illo animi. Architecto neque labore provident aspernatur ratione saepe exercitationem expedita ducimus, velit perferendis natus quidem sit omnis voluptatem ea adipisci? Quaerat temporibus amet mollitia provident, est deserunt dolores ratione adipisci, quod alias, dolorum ducimus inventore! Iusto autem molestias odit dolore similique ab totam quaerat vero fugit consequuntur, ullam officiis asperiores cum possimus? Commodi, asperiores. Voluptatem hic quod aspernatur, porro tempora rerum dolores, dolorum magnam ad iste recusandae? Tempora expedita quidem quod quasi dolorum saepe soluta quia, earum ea architecto voluptatibus fugit voluptates est nostrum? Tempore?</p>
                                 </Container>
                             </Tab.Pane>
-                            <Tab.Pane eventKey="#fourth">
+                            <Tab.Pane eventKey="#textandimage">
                                 <Container align="center">
-                                <h1>Text and image</h1>
-                                <br />
-                                </Container>
-                                <Container align="justify">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt explicabo temporibus facere nemo itaque voluptates commodi iure esse accusantium. Autem hic suscipit, laudantium labore debitis iure sequi illum! Esse architecto excepturi voluptatum assumenda, error odio, itaque non repellendus rerum pariatur temporibus. Cumque, incidunt assumenda blanditiis perferendis minus a adipisci expedita.</p>
-                                </Container>
-                                <Container align="center">
+                                    <h1>Text and image</h1>
+                                    <br />
+                                    <p align="justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt explicabo temporibus facere nemo itaque voluptates commodi iure esse accusantium. Autem hic suscipit, laudantium labore debitis iure sequi illum! Esse architecto excepturi voluptatum assumenda, error odio, itaque non repellendus rerum pariatur temporibus. Cumque, incidunt assumenda blanditiis perferendis minus a adipisci expedita.</p>
                                     <Image src="img/service_03.png" width="80%" roundedCircle />
                                 </Container>
                             </Tab.Pane>
-                            <Tab.Pane eventKey="#fifth">
+                            <Tab.Pane eventKey="#textwithlists">
                                 <Container align="center">
                                     <h1>Text and list</h1>
                                     <br />
-                                </Container>
-                                <Container align="justify">
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat nesciunt fugiat dolore debitis ipsam. Velit aperiam suscipit laudantium similique, saepe deserunt laborum non nesciunt nihil labore voluptas voluptatem beatae. Magni quis explicabo, quidem voluptatem eos totam, soluta odio facilis ut nesciunt consectetur? Illo fugit voluptates officiis excepturi, consectetur molestias cupiditate incidunt asperiores sint quam eveniet iste odit deleniti? Minima iste possimus repudiandae quos! Nemo fugiat natus eligendi delectus? Fugiat soluta distinctio illum nostrum nobis, consectetur asperiores cumque beatae sint repellat explicabo obcaecati vero? Similique dolores voluptatem hic tenetur odit, inventore aspernatur eaque pariatur magnam repudiandae molestiae, unde praesentium cupiditate quae!</p>
-                                    <ul>
+                                    <p align="justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat nesciunt fugiat dolore debitis ipsam. Velit aperiam suscipit laudantium similique, saepe deserunt laborum non nesciunt nihil labore voluptas voluptatem beatae. Magni quis explicabo, quidem voluptatem eos totam, soluta odio facilis ut nesciunt consectetur? Illo fugit voluptates officiis excepturi, consectetur molestias cupiditate incidunt asperiores sint quam eveniet iste odit deleniti? Minima iste possimus repudiandae quos! Nemo fugiat natus eligendi delectus? Fugiat soluta distinctio illum nostrum nobis, consectetur asperiores cumque beatae sint repellat explicabo obcaecati vero? Similique dolores voluptatem hic tenetur odit, inventore aspernatur eaque pariatur magnam repudiandae molestiae, unde praesentium cupiditate quae!</p>
+                                    <ul align="justify">
                                         <li>Coffee</li>
                                         <li>Tea</li>
                                         <li>Milk</li>
@@ -85,20 +78,21 @@ const Servicios = () => {
                                     </ul>
                                 </Container>
                             </Tab.Pane>
-                            <Tab.Pane eventKey="#sixth">
-                                <Container align="center">
-                                    <h1>Video</h1>
-                                    <br />
+                            <Tab.Pane eventKey="#video">
+                            <Container>
+        <h1 align="center">Video</h1>
+        <br />
+        </Container>
                                     <Video />
-                                </Container>
+                            
                             </Tab.Pane>
-                            <Tab.Pane eventKey="#seventh">
+                            <Tab.Pane eventKey="#tables">
                                 <Container align="center">
                                     <h1>Tables</h1>
                                     <br />
                                 </Container>
                                 <Container>
-                                    <Table striped bordered hover responsive ="sm">
+                                    <Table striped bordered hover responsive="sm">
                                         <thead>
                                             <tr>
                                                 <th>#</th>

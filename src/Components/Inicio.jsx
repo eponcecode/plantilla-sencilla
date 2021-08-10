@@ -8,8 +8,8 @@ function Inicio() {
             <Carousel/>
             <Container>
                 <br/>
-            <h1>Wellcome</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+            <h1 align='center'>Wellcome</h1>
+            <p align='justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
                 distinctio fugit perspiciatis modi error dolore aspernatur dolor ducimus,
                 rem ratione, qui fugiat facere similique velit optio doloribus? Dolorem ab,
                 quo laborum rerum autem eveniet perferendis quae! Eveniet sit possimus
@@ -32,7 +32,7 @@ function Inicio() {
             </Container>
             <br/>
             <Container align="center">
-            <Image src='img/under_construction.jpg' width="1000"/>
+            <Image src='img/under_construction.jpg' width="1000" fluid/>
             </Container>
         </div>
     )
