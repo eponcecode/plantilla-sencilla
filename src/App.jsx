@@ -23,7 +23,7 @@ function App() {
             <Switch>
                 
                 
-                <Route exact path="/plantilla-sencilla/#/quienes-somos" component={QuienesSomos}/>
+                <Route exact path='/plantilla-sencilla/#/quienes-somos' component={QuienesSomos}/>
                 <Route exact path="/plantilla-sencilla/#/historia" component={Historia}/>
                 <Route exact path="/plantilla-sencilla/#/servicios" component={Servicios}/>
                 <Route exact path="/plantilla-sencilla/#/galeria" component={Galeria}/>
