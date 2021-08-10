@@ -9,11 +9,11 @@ class NavbarHeader extends Component {
   render() { 
     return ( <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
     <Container >
-     <NavLink to="/plantilla-sencilla/inicio" href="/plantilla-sencilla/inicio">Tu sitio</NavLink>
+     <NavLink to="/plantilla-sencilla/inicio">Tu sitio</NavLink>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
-        <NavLink  to="/plantilla-sencilla/quienes-somos">¿Quiénes somos?</NavLink>
+        <NavLink to="/plantilla-sencilla/quienes-somos">¿Quiénes somos?</NavLink>
          <NavLink to="/plantilla-sencilla/historia">Historia </NavLink>
          <NavLink to="/plantilla-sencilla/servicios">Servicios </NavLink>
          <NavLink to="/plantilla-sencilla/galeria">Galeria </NavLink>
