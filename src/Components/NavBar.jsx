@@ -12,11 +12,11 @@ function NavbarHeader() {
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
-        <Nav.Link componentclass={Link} href="/plantilla-sencilla/quienes-somos" to="/plantilla-sencilla/quienes-somos">¿Quiénes somos?</Nav.Link>
-         <Nav.Link componentclass={Link} href="/plantilla-sencilla/historia" to="/plantilla-sencilla/historia">Historia </Nav.Link>
-         <Nav.Link componentclass={Link} href="/plantilla-sencilla/servicios" to="/plantilla-sencilla/servicios">Servicios </Nav.Link>
-         <Nav.Link componentclass={Link} href="/plantilla-sencilla/galeria" to="/plantilla-sencilla/galeria">Galeria </Nav.Link>
-         <Nav.Link componentclass={Link} href="/plantilla-sencilla/contacto" to="/plantilla-sencilla/contacto">Contacto </Nav.Link>
+        <Nav.Link componentclass={Link} to="/plantilla-sencilla/quienes-somos" href="/plantilla-sencilla/quienes-somos">¿Quiénes somos?</Nav.Link>
+         <Nav.Link componentclass={Link} to="/plantilla-sencilla/historia" href="/plantilla-sencilla/historia">Historia </Nav.Link>
+         <Nav.Link componentclass={Link} to="/plantilla-sencilla/servicios" href="/plantilla-sencilla/servicios">Servicios </Nav.Link>
+         <Nav.Link componentclass={Link} to="/plantilla-sencilla/galeria" href="/plantilla-sencilla/galeria">Galeria </Nav.Link>
+         <Nav.Link componentclass={Link} to="/plantilla-sencilla/contacto" href="/plantilla-sencilla/contacto">Contacto </Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Container>
