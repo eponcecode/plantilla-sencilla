@@ -7,7 +7,7 @@ const Galeria = () => (
 <Row style={{background:'url(https://cdn.pixabay.com/photo/2015/11/06/13/21/texture-1027808_960_720.jpg), no-repeat, fixed' ,border: '3px solid #444444' }}>
     <br/>
   <Gallery>
-      <Row >
+      <Row align='center'>
  <Col xs={12} sm={6} md={4} lg={2} xxl={2}>
     <Item
       original="https://source.unsplash.com/2ShvY8Lf6l0?image=1"
