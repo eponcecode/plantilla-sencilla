@@ -9,7 +9,6 @@ class NavbarHeader extends Component {
   render() { 
     return ( <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
     <Container >
-      <Route>
      <NavLink className='navbar-brand' to="/plantilla-sencilla/inicio">Tu sitio</NavLink>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
@@ -21,7 +20,6 @@ class NavbarHeader extends Component {
          <NavLink className='nav-item nav-link' to="/plantilla-sencilla/contacto">Contacto </NavLink>
       </Nav>
     </Navbar.Collapse>
-    </Route>
   </Container>
 </Navbar> );
   }
