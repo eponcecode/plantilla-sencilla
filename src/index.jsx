@@ -5,9 +5,7 @@ import App from './App.jsx';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter>
     <App />
-    </HashRouter>
   </React.StrictMode>,
   document.getElementById('tusitio')
 );
