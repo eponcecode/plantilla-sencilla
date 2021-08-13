@@ -1,7 +1,6 @@
 import React from 'react';
 import NavbarHeader from './Components/NavBar';
 import {
-    BrowserRouter,
     HashRouter,
     Switch,
     Route,
@@ -13,6 +12,7 @@ import Servicios from './Components/Servicios';
 import Contacto from './Components/Contacto';
 import Footer from './Components/Footer';
 import Galeria from './Components/Galeria';
+import NotFound from './Components/NotFound';
 function App() {
     return (
         <>
