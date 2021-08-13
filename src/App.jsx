@@ -16,7 +16,7 @@ import Galeria from './Components/Galeria';
 function App() {
     return (
         <>
-        <HashRouter basename='/plantilla-sencilla'>
+        <HashRouter >
             <NavbarHeader />
             <br />
             <br />
