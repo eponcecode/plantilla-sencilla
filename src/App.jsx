@@ -1,7 +1,8 @@
 import React from 'react';
 import NavbarHeader from './Components/NavBar';
 import {
-    BrowserRouter as Router,
+    BrowserRouter,
+    HashRouter,
     Switch,
     Route,
 } from 'react-router-dom';
@@ -15,7 +16,7 @@ import Galeria from './Components/Galeria';
 function App() {
     return (
         <>
-        <Router>
+        <HashRouter>
             <NavbarHeader />
             <br />
             <br />
@@ -32,7 +33,7 @@ function App() {
             <br />
             <br />
             <Footer />
-        </Router>
+        </HashRouter>
         </>
     );
 
