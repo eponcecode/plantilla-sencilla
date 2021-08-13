@@ -4,7 +4,6 @@ import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {NavLink} from 'react-router-dom';
-
 class NavbarHeader extends Component {
   render() { 
     return ( <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
