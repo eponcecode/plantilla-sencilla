@@ -27,7 +27,7 @@ function App() {
                 <Route exact path='/servicios' component={Servicios} />
                 <Route exact path='/galeria' component={Galeria}/>
                 <Route exact path='/contacto' component={Contacto} />
-                <Route exact path='/' component={Inicio} />
+                <Route exact path='' component={Inicio} />
                 <Route exact path='/inicio' component={Inicio} />
             </Switch>
             <br />
