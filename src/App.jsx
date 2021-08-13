@@ -29,6 +29,7 @@ function App() {
                 <Route exact path='/contacto' component={Contacto} />
                 <Route exact path='/' component={Inicio} />
                 <Route exact path='/inicio' component={Inicio} />
+                <Route component={NotFound} />
             </Switch>
             <br />
             <br />
