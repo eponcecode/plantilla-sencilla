@@ -22,13 +22,13 @@ function App() {
             <br />
             <br />
             <Switch>
-                <Route exact path='/quienes-somos' component={QuienesSomos}  />
-                <Route exact path='/historia' component={Historia}/>
-                <Route exact path='/servicios' component={Servicios} />
-                <Route exact path='/galeria' component={Galeria}/>
-                <Route exact path='/contacto' component={Contacto} />
-                <Route exact path='' component={Inicio} />
-                <Route exact path='/inicio' component={Inicio} />
+                <Route exact path='/plantilla-sencilla/quienes-somos' component={QuienesSomos}  />
+                <Route exact path='/plantilla-sencilla/historia' component={Historia}/>
+                <Route exact path='/plantilla-sencilla/servicios' component={Servicios} />
+                <Route exact path='/plantilla-sencilla/galeria' component={Galeria}/>
+                <Route exact path='/plantilla-sencilla/contacto' component={Contacto} />
+                <Route exact path='/plantilla-sencilla' component={Inicio} />
+                <Route exact path='/plantilla-sencilla/inicio' component={Inicio} />
             </Switch>
             <br />
             <br />
