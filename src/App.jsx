@@ -16,7 +16,7 @@ import Galeria from './Components/Galeria';
 function App() {
     return (
         <>
-        <BrowserRouter basename='/plantilla-sencilla'>
+        <HashRouter basename='/plantilla-sencilla'>
             <NavbarHeader />
             <br />
             <br />
@@ -33,7 +33,7 @@ function App() {
             <br />
             <br />
             <Footer />
-        </BrowserRouter>
+        </HashRouter>
         </>
     );
 
