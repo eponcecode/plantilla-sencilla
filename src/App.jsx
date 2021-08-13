@@ -17,7 +17,7 @@ function App() {
     return (
         <>
         <HashRouter>
-            <NavbarHeader basename='/plantilla-sencilla'/>
+            <NavbarHeader basename='/cosilla'/>
             <br />
             <br />
             <br />
