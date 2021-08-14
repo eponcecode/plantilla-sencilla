@@ -16,8 +16,8 @@ import NotFound from './Components/NotFound';
 function App() {
     return (
         <>
-        <HashRouter>
-            <NavbarHeader basename='/plantilla-sencilla'/>
+        <HashRouter basename='/plantilla-sencilla'>
+            <NavbarHeader/>
             <br />
             <br />
             <br />
