@@ -1,7 +1,7 @@
 import React from 'react';
 import NavbarHeader from './Components/NavBar';
 import {
-    HashRouter,
+    BrowserRouter,
     Switch,
     Route,
 } from 'react-router-dom';
@@ -16,8 +16,8 @@ import NotFound from './Components/NotFound';
 function App() {
     return (
         <>
-        <HashRouter >
-            <NavbarHeader basename='/plantilla-sencilla'/>
+        <BrowserRouter basename='/plantilla-sencilla'>
+            <NavbarHeader/>
             <br />
             <br />
             <br />
@@ -34,7 +34,7 @@ function App() {
             <br />
             <br />
             <Footer />
-        </HashRouter>
+        </BrowserRouter>
         </>
     );
 
